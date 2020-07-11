@@ -1,0 +1,3 @@
+The scheduled tasks area is where you can select a variety of tasks to be scheduled. This includes server backups, start / stop / restart the server, or even send a server command such as an announcement. These are typed directly into the server console on the backend, so it will appear to the server as though you are typing in the commands yourself. 
+
+Schedule options are every X minute and x hour. You can also say every X day, or a specific day. On the days you can also set a time so you can do something like: Backup every Tuesday at 3am. You could also schedule something along the lines of Restart Every Thursday at 4pm, or perhaps even `say Crafty is awesome` every hour.

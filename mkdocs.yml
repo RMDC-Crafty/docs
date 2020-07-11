@@ -1,0 +1,50 @@
+site_name: Crafty Controller Documentation
+site_description: Crafty is an open source Minecraft control panel built using Tornado and AdminLTE, featuring server scheduling, a interactive console and the ability to run almost any type of Minecraft server.
+
+repo_name: rmdc-crafty/crafty
+repo_url: https://github.com/RMDC-Crafty/crafty
+
+theme:
+  name: material
+  logo: images/crafty.png
+  favicon: images/crafty.png
+  palette:
+    primary: green
+    accent: light green
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/WNmJn2v
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCefBRgx-JpVk9DecR6Xv2SQ
+    - icon: fontawesome/solid/globe
+      link: https://craftycontrol.com
+
+extra_css:
+  - /css/theme.css
+
+pages:
+  - "Home": index.md
+  - "Installation": installation.md
+  - "Setup": setup-crafty.md
+  - Administration:
+    - The Dashboard: administration/dashboard.md
+    - Configuration: administration/config.md
+    - Logs: administration/logs.md
+    - Web-based Console: administration/web-console.md
+    - Crafty Console: administration/virtual-console.md
+    - Server Management: administration/server-management.md
+    - Backups: administration/backups.md
+    - Scheduled Tasks: administration/scheduled-tasks.md
+
+
+

@@ -1,0 +1,3 @@
+Most of Crafty’s configuration and management is done via the Web Console which is started in the background. Access to the console is required to be done over HTTPS to allow for encrypted transactions. 
+
+To connect to your console, you will need to use a browser [such as chrome](chrome.google.com) to access the website on the port you chose for Crafty to run on (default port is 8000). Assuming you are on the same system as Crafty, you can access the site via `https://localhost:8000`. Use the username and and the password given to you by the installer (both are *cAsE-sEnSiTivE*). If you have forgotten your password, you can change it by running `set_passwd [username]` The default username is `Admin`
